@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+	
+	/*printf("나의 이름은 %s 입니다.\n", "백승채");
+	printf("나는 %d살 입니다.\n", 17);
+	printf("나의 혈액형은 %c입니다.\n", 'O');
+	printf("나의 시력은 %.1lf, %.1lf입니다.\n", 2.0, 2.0);
+	printf("나의 시력은 %lf, %lf입니다.\n", 2.0, 2.0);
+	*/
+	
+	/*int grade=6;
+	int Class=3;
+	int number = 22;
+	printf("%d학년 %d반 %d번", grade, Class, number);
+	*/
+	
+	/*printf("%d년 %d월 %s 승리\n", 2019, 3, "알파고");
+	printf("%d%c 프린터로 집짓기\n", 3,'D');
+	printf("원주율= %.2lf\n", 3.14);
+	printf("%.3lfkm 마라톤\n", 42.195 ) ;*/
+	
+	return 0;
+} 

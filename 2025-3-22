@@ -1,0 +1,52 @@
+#include <stdio.h>
+int main()
+{
+	
+	/*int a;
+	double f1;
+	char ch;
+	a = 15;
+	f1 = 123.456;
+	ch = 'A';
+	printf("%d\n", a);
+	printf("%lf\n", f1);
+	printf("%c\n", ch);
+	*/
+	
+	/*int num;
+	printf("숫자를 하나 입력해주세요. : ");
+	scanf("%d", &num);
+	printf("%d\n", num);
+	*/
+	
+	/*double eye_r;
+	double eye_l;
+	printf("양쪽시력을 입력해주세요. : ");
+	scanf("%lf %lf", &eye_r, &eye_l);
+	printf("오른쪽시력: %.1lf\n왼쪽시력 : %.1lf\n", eye_r, eye_l);	
+	*/
+	
+	/*int grade, Class, num;
+	//int Class;
+	//int num;
+	printf("학년:");
+	scanf("%d",&grade);
+	printf("반:");
+	scanf("%d",&Class);
+	printf("번호:");
+	scanf("%d",&num);
+	printf("%d학년 %d반 %d번 입니다", grade, Class, num);
+	*/
+	
+	/*int meter;
+	double cmeter;
+	printf("m : ");
+	scanf("%d", &meter);
+	printf("%dm는 %dcm입니다.\n", meter, meter*100);
+	printf("cm : ");
+	scanf("%lf", &cmeter);
+	printf("%.0lfcm는 %.2lfm입니다.", cmeter, cmeter/100);
+	*/
+	
+	return 0;
+}

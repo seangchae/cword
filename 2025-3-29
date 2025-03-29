@@ -1,0 +1,51 @@
+#include <stdio.h>
+int main()
+{
+	
+	/*int num1, num2;
+	scanf("%d %d", &num1, &num2);
+	printf("%d + %d = %d\n", num1, num2, num1+num2);
+	printf("%d - %d = %d\n", num1, num2, num1-num2);
+	printf("%d x %d = %d\n", num1, num2, num1*num2);
+	printf("%d / %d = %d\n", num1, num2, num1/num2);
+	printf("%d %% %d = %d\n", num1, num2, num1%num2);
+	*/
+	
+	/*double num1, num2;
+	scanf("%lf %lf", &num1, &num2);
+	printf("%.2lf + %.2lf = %.2lf\n", num1, num2, num1+num2);
+	printf("%.2lf - %.2lf = %.2lf\n", num1, num2, num1-num2);
+	printf("%.2lf x %.2lf = %.2lf\n", num1, num2, num1*num2);
+	printf("%.2lf / %.2lf = %.2lf\n", num1, num2, num1/num2);
+	*/
+	
+	/*printf("%d\n", 10/3);
+	printf("%d\n", 10/3.0);
+	printf("%f\n", 10/3.0);
+	*/
+	
+	/*int a = 70, b = 7;
+	double f1 = 77.0, f2 = 7.0;
+	printf("%d\n", a/b);
+	printf("%lf\n", f1/b);
+	printf("%lf\n", a/f2);
+	printf("%lf\n", f1/f2);
+	*/
+	
+	/*int w, h;
+	double s;
+	scanf("%d %d", &w, &h);
+	s = 1.0 * w * h / 2;
+	printf("%lf", s);
+	*/
+	
+	/*int c;
+	double f;
+	scanf("%d", &c);
+	f = (1.0 * c * 9 / 5) + 32;
+	printf("%lf", f);
+	*/
+	
+	
+	return 0;
+}

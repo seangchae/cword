@@ -1,0 +1,59 @@
+#include<stdio.h>
+int main()
+{
+	/*int a, b, c, d;
+	scanf("%d %d %d %d", &a, &b, &c, &d);
+	//printf("%d\n", a>b);
+	//printf("%d\n", b>a);
+	printf("%d\n", a>b&&c>d);
+	printf("%d\n", a>b||c>d);
+	printf("%d\n", a>b&&c<d);
+	printf("%d\n", a>b||c<d);
+	printf("%d\n", !(a,b));
+	*/
+	
+	/*int res;
+	res = 0&&0;
+	printf("%d\n", res);
+	res = 0&&1;
+	printf("%d\n", res);
+	res = 1&&0;
+	printf("%d\n", res);
+	res = 1&&1;
+	printf("%d\n", res);
+	res = 0||0;
+	printf("%d\n", res);
+	res = 0||1;
+	printf("%d\n", res);
+	res = 1&&0;
+	printf("%d\n", res);
+	res = 1&&1;
+	printf("%d\n", res);
+	printf("%d\n", !res);
+	*/
+	
+	/*int n;
+	scanf("%d", &n);
+	printf("%d\n",n%2==0&&n%3==0);
+	printf("%d\n",n%2!=0&&n%3!=0);
+	*/
+	
+	/*int n;
+	scanf("%d", &n);
+	printf("%d\n", n/7==5);
+	printf("%d\n", n%3==0);
+	printf("%d\n", n%5 != 0);
+	printf("%d\n", n%3 == 0&&n%2 == 0);
+	printf("%d\n", n%4 == 0||n%7 == 0);
+    */
+
+	//printf("%d\n", 1000*15<5000*2);
+
+	//printf("%d\n", 1000/1==1000/3+100);
+		
+	//printf("%d\n", 500*5+1000*2<=5000);
+
+	//printf("%d\n", 5000*1 + 2000 * 4<=15000||5000*2 + 2000 * 3<=15000);
+
+	return 0;
+}

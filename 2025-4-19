@@ -1,0 +1,130 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main()
+{
+	/*if(0)
+	{
+		printf("True\t참\n");
+		printf("응\t맞아\n");
+	}
+	else
+	{
+		printf("False\t거짓\n");
+		printf("아니\t아니야\n");
+	}
+	*/
+	
+	/*srand(time(NULL));
+	int rnd = rand() % 1024;
+	if (rnd > 200)
+	{
+		printf("조건식1 실행\n");
+	}
+	if (rnd > 400)
+	{
+		printf("조건식2 실행\n");
+	}
+	if (rnd > 600)
+	{
+		printf("조건식3 실행\n");
+	}
+	if (rnd > 800)
+	{
+		printf("조건식4 실행\n");
+	}
+	printf("%d\n", rnd);
+	*/
+	
+	/*int num;
+	printf("10000 미만 정수입력 : ");
+	scanf("%d", &num);
+	if(num < 10)
+	{
+		printf("한자릿수\n");
+	}
+	else if(num < 100)
+	{
+		printf("두자릿수\n");
+	}
+	else if(num < 1000)
+	{
+		printf("세자릿수\n");
+	}
+	else if(num < 10000)
+	{
+		printf("네자릿수\n");
+	}
+	else if(num < 100000)
+	{
+		printf("다섯자릿수\n");
+	}
+	*/
+	
+	/*int num;
+	printf("정수 하나 입력: ");
+	scanf("%d", &num);
+	if(num > 0)
+		printf("%d는/은 양수", num);
+	else if(num < 0)
+		printf("%d는/은 음수", num);
+	else
+		printf("0은 0", num); 
+	*/
+	
+	/*int num;
+	printf("정수 하나 입력: ");
+	scanf("%d", &num);
+	if(num % 2 == 0)
+	{
+		printf("%d는/은 짝수", num);
+	}
+	else
+	{
+		printf("%d는/은 홀수", num);
+	}
+	*/
+	
+	/*int num;
+	printf("정수 하나 입력: ");
+	scanf("%d", &num);
+	if(num % 3 == 0)
+	{
+		printf("%d는/은 3의 배수 O", num);
+	}
+	else
+	{
+		printf("%d는/은 3의 배수 X", num);
+	}
+	*/
+	
+	/*int a,b;
+	printf("\n4번 입력 : ");
+	scanf("%d %d", &a, &b);
+	if(a>b){
+	
+		if(a%b==0)
+			printf("%d 는 %d 로 나누어 떨어진다.\n", a, b);		
+		else	
+			printf("%d는 %d로 나누어 떨어지지 않는다.\n", a,b);
+	}
+	else{
+		if(b%a==0)
+			printf("%d 는 %d 로 나누어 떨어진다.\n",a ,b);
+		else
+			printf("%d는 %d로 나누어 떨어지지 않는다.\n",a,b);
+	}
+	*/
+
+	/*double d;
+	printf("\n5번 입력:");
+	scanf("%lf", &d);
+	if(d<0)
+		printf("%lf의 절댓값은 %lf", d, d*-1);
+	else
+		printf("%lf의 절댓값은 %lf" d, d);
+	*/
+		
+	return 0;
+
+}

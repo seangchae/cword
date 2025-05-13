@@ -1,0 +1,75 @@
+#include <cstdio>
+int main()
+{
+	/*int i;
+	i = 1;
+	while(i<=10)
+	{
+		printf("%d ", i);
+		i++;
+	}
+	*/
+	
+	/*int i = 10;
+	while(i>=1)
+	{
+	printf("%d", i);
+	printf("모주은");
+	printf("\n");
+	i--;
+	}
+	*/
+	
+	/*int n = 10;
+	while(n<=17)	
+	{
+		printf("%d ", n);
+		n++;
+	}
+	printf("\nwhile문 종료후 n의 값: %d\n", n);
+	*/
+	
+	/*int i;
+	i = 1;
+	while(i<=10)
+	{
+		printf("%d ", i);
+		i++;
+	}
+	*/
+	
+	/*int i;
+	i = 11;
+	do{
+		printf("%d ", i);
+		i++;
+	}while(i<=10);
+	*/
+	
+	/*int i = 0;
+	while(i < 10)
+	{
+		printf("i의 값 : %d\n", i);
+		i++;
+		if(i == 5)
+		{
+			break;
+		}
+	}
+	*/
+	
+	/*int i =0;
+	while(i < 10)
+	{
+		if(i == 5)
+		{
+			i++;
+			continue;
+		}
+		printf("i의 값: %d\n", i);
+		i++;
+	}
+	*/
+	
+	return 0;
+ } 

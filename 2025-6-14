@@ -1,0 +1,49 @@
+#include<stdio.h>
+int main()
+{
+	/*char a;
+	scanf("%c", &a);
+	printf("%c",a+32);
+	*/
+	
+	/*char ch;
+	printf("문자를 입력하세요 : ");
+	ch = getchar();
+	putchar(ch);
+	*/
+	
+	/*char str1[15] = "Coding is fun";
+	char str2[ ] = "Coding is fun";
+	printf("%s\n", str1);
+	printf("%s\n", str2);
+	*/
+	
+	/*char word[20];
+	printf("단어를 입력하세요 : ");
+	scanf("%s", word);
+	printf("입력하신 단어는 %s 입니다", word);
+	*/
+	
+	/*char sentence[80];
+	puts("문장을 입력하세요 : ");
+	gets(sentence);
+	puts(sentence);
+	printf("%s", sentence);
+	*/
+	
+	/*char str[15] = "Hi C3 coding";
+	for(int i = 0; str[i]; i++) 
+		printf("%c", str[i]);
+	*/
+	
+	/*char str[15] = "Hi C3 coding";
+	for(int i = 0; str[i]; i++)
+	{
+		if('a' <= str[i] && str[i] <='z')
+			str[i] = str[i] - 32;
+			printf("%c", str[i]);
+	}
+	*/
+	
+	return 0;
+}

@@ -1,0 +1,95 @@
+#include <stdio.h>
+/*void add(int* num1, int* num2)
+{
+	*num1 = *num1 + 10;
+	*num2 = *num2 + 10;
+}
+*/
+
+/*void add(int num1, int num2)
+{
+	num1 = num1 + 10;
+	num2 = num2 + 10;
+}
+*/
+
+/*void AddNum(int *n1, int *n2)
+{
+	printf("%d + %d = %d\n", *n1, *n2, *n1 + *n2);
+}
+void SubNum(int *n1, int *n2)
+{
+	if(*n1 > *n2)
+		printf("%d - %d = %d\n", *n1, *n2, *n1 - *n2);
+	else
+		printf("%d - %d = %d\n", *n2, *n1, *n2 - *n1);
+}
+void MulNum(int *n1, int *n2)
+{
+	printf("%d * %d = %d\n", *n1, *n2, *n1 * *n2);
+}
+void DivNum(int *n1, int *n2)
+{
+	if(*n1 > *n2)
+		printf("%d / %d = %d...%d\n", *n1, *n2, *n1 / *n2, *n1 % *n2);
+	else
+		printf("%d / %d = %d...%d\n", *n2, *n1, *n2 / *n1, *n2 % *n1);
+}
+*/
+
+int main()
+{
+	/*int a;
+	double b;
+	char c;
+	a = 153; b = 12.7; c = '3';
+	printf("변수 a의 주소 : %d\n", &a);
+	printf("변수 b의 주소 : %d\n", &b);
+	printf("변수 c의 주소 : %d\n", &c);
+	*/
+	
+	/*char ch = 'A';
+    char * pch;
+	pch = &ch;
+	printf("%p\n", pch);
+	printf("%c\n", *pch);
+	*/
+	
+	/*int number1 = 5;
+	int number2 = 10;
+	add(number1, number2);
+	printf("number1 = %d\n", number1);
+	printf("number2 = %d\n", number2);
+	*/
+	
+	/*int number1 = 5;
+	int number2 = 10;
+	add(&number1, &number2);
+	printf("number1 = %d\n", number1);
+	printf("number2 = %d\n", number2);
+	*/
+	
+	/*int n;
+	int *pn, *pr;
+	int ar[10] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+	n = 49;
+	pn = &n;
+	pr = &ar[2];
+	printf("%d %d %p %p\n", n, ar[2], pn, pr);
+	*pn = 59;
+	*pr = 33;
+	printf("%d %d\n", *pn, *pr);
+	*/
+	
+	/*int a, b;
+	int *pa, *pb;
+	pa = &a, pb = &b;
+	scanf("%d %d", pa, pb);
+	AddNum(pa, pb);
+	SubNum(pa, pb);
+	MulNum(pa, pb);
+	DivNum(pa, pb);
+	*/
+	
+	return 0;
+}

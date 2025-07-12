@@ -1,0 +1,79 @@
+#include<stdio.h>
+#include<string.h>
+/*struct Coordi
+{
+	int x;
+	int y;
+};
+*/
+
+/*struct Person
+{
+	char name[10];
+	int age;
+	double height;
+};
+*/
+
+/*struct Circle
+{
+	int x;
+	int y;
+	double r;
+	double l;
+	double s;
+};
+*/
+
+/*struct Coordi
+{
+	int x;
+	int y;
+};
+struct Circle
+{
+	struct Coordi cen;
+	double r;
+};
+*/
+
+int main()
+{
+	/*struct Coordi p1;
+	struct Coordi p2 = {5, 9};
+	struct Coordi p3;
+	p1.x = 2;
+	p1.y = 3;
+	printf("p1의 좌표(%d , %d)\n", p1.x, p1.y);
+	printf("p2의 좌표(%d , %d)\n", p2.x, p2.y);
+	scanf("%d %d", &p3.x, &p3.y);
+	printf("p3의 좌표(%d , %d)\n", p3.x, p3.y);
+	*/
+	
+	/*struct Person m1;
+	struct Person m2 = {"허난설헌", 13, 159.9};	
+	strcpy(m1.name, "허균");
+	m1.age = 19;
+	m1.height = 168.34;
+	printf("(%s %d %.2lf) (%s %d %.1lf)", m1.name, m1.age, m1.height, m2.name, m2.age, m2.height);
+	*/
+	
+	/*struct Circle c;
+	scanf("%d %d %lf", &c.x, &c.y, &c.r);
+	c.l = 2 * c.r * 3.14;
+	c.s = c.r * c.r * 3.14;
+	printf("중점의 좌표   : (%d, %d)\n", c.x, c.y);
+	printf("반지름의 길이 : %.2lf\n", c.r);
+	printf("둘래의 길이   : %.2lf\n", c.l);
+	printf("원의 넓이     : %.2lf", c.s);
+	*/
+
+	/*struct Circle c1;
+	struct Circle c2 = {{4, 5}, 12.4};
+	scanf("%d %d %lf", &c1.cen.x, &c1.cen.y, &c1.r);
+	printf("c1 : (%d, %d) %.2lf\n", c1.cen.x, c1.cen.y, c1.r);
+	printf("c2 : (%d, %d) %.2lf\n", c2.cen.x, c2.cen.y, c2.r);
+	*/
+	
+	return 0;
+}

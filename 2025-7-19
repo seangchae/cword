@@ -1,0 +1,97 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	/*FILE *fp = fopen("datafile.txt", "w");
+	if(fp == NULL)
+	{
+		printf("파일이 없습니다.");
+		exit(1);
+	}
+	fclose(fp);
+	*/
+	
+	/*FILE *fp;
+	char ch;
+	fp = fopen("CharOut.txt", "r");
+	if(fp == NULL)
+	{
+		printf("파일없음\n");
+		exit(1);
+	}
+	ch = fgetc(fp);
+	printf("%c", ch);
+	ch = fgetc(fp);
+	putchar(ch);
+	fclose(fp);
+	*/
+	
+	/*FILE *fp;
+	fp = fopen("Alphabet.txt", "w");
+	if(fp == NULL)
+	{
+		printf("파일없음\n");
+		exit(1);
+	}
+	for(int i = 0; i < 26; i++)
+	{
+		fputc('a' + i, fp);
+	}
+	fputc('\n', fp);
+	for(int i = 0; i < 26; i++)
+		fputc('A' + i, fp);
+	fclose(fp);
+	*/
+	
+	/*FILE *in = fopen("StringFile.txt", "r");
+	char str1[30];
+	char str2[30];
+	char str3[30];
+	if(in == NULL)
+	{
+		printf("파일없음\n");
+		exit(1);
+	}
+	fgets(str1, sizeof(str1), in);
+	fgets(str2, sizeof(str2), in);
+	fgets(str3, sizeof(str3), in);
+	puts(str1);
+	printf("%s", str2);
+	fputs(str3, stdout);
+	fclose(in);
+	*/
+	
+	/*FILE *in = fopen("NumberFile.txt", "r");
+	int n, m;
+	double d1, d2;
+	if(in == NULL)
+	{
+		printf("파일없음\n");
+		exit(1);
+	}
+	printf("정수를 두 개  입력합니다\n");
+	fscanf(in, "%d %d", &n, &m);
+	printf("실수를 두 개  입력합니다\n");
+	fscanf(in, "%lf %lf", &d1, &d2);
+	printf("\n입력받은 수들을 모두 출력합니다.\n");
+	printf("%d %d\n", n, m);
+	printf("%lf %lf", d1, d2);
+	printf("\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n");
+	printf("어디서 입력받았을까요?\n");
+	fclose(in);
+	*/
+	
+	/*int n, num;   //ctrl + z 했을때 결과 알아보는코드 
+	char *res, str[20];
+	printf("문자입력 : ");
+	n = getchar();
+	printf("문자열 입력 : ");
+	res = gets(str);
+	printf("res = %d\n", res);
+	printf("형식 입력 : ");
+	n = scanf("%d", &num);
+	printf("n = %d", n);
+	*/
+	
+	return 0;
+}

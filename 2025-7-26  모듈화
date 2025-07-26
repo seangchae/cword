@@ -1,0 +1,95 @@
+#include<stdio.h>
+//void PrintFun1(int *m, int *n);
+//void PrintFun2(int *m, int *n);
+
+//void Ccube();
+//void Coding();
+
+/*#define MAX 10 //매크로 상수 
+#define PI 3.141592 //매크로 상수
+#define C3C "씨큐브 코딩" //매크로 상수
+#define PRN printf //매크로 상수
+#define MACRO "## 매크로 상수##\n" //매크로 상수
+#define SUM(n,m) ((n)+(m)) //매크로 함수
+#define SUB(s,b) ((s)-(b)) //매크로 함수
+*/
+
+int main()
+{
+	/*int a, b;
+	a = 12;
+	b = 20;
+	printf("a = %d, b = %d\n", a, b); //a = 12, b = 20
+	{
+		int a, c; //a와c는 지역변수이므로 밖으로 못갖고 나감. 이 함수가 끝난순간 사라짐. 
+		a = 30;
+		c = 50;
+		printf("a = %d, b = %d, c = %d\n", a, b, c); //a = 30, b =20, c = 50
+		a = 90;
+		b = 45; //그러나 b는 main 함수에서 만든 변수이므로, 갖고나갈수있음. 값도 바뀌어 나감. 
+		c = 75;
+	}
+	printf("a = %d, b = %d\n", a, b); //a = 12, b = 45
+	*/
+	
+	/*int m, n; //이 코드는 void PrintFun1, 2와 이어짐 
+	m = 10;
+	n = 30;
+	printf("main before : m = %d n = %d\n", m, n); //1번째 
+	PrintFun1(&m, &n); //2번째(함수호출) 
+	printf("main after : m = %d n = %d\n", m, n); //8번째 (코드 끝) 
+	*/
+	
+	/*Ccube(); //이 코드는 void Ccube, void Coding과 이어짐 
+	Ccube();
+	Ccube();
+	Coding();
+	Coding();
+	Coding();
+	*/
+	
+	/*PRN(MACRO); //이 코드는 define MAX 10...과 이어짐 
+	PRN("MAX = %d\n", MAX);
+	PRN("PI = %lf\n", PI);
+	PRN("C3C = %s\n", C3C);
+	PRN("%d\n", SUM(3,8));
+	PRN("%lf\n", SUM(3.6,8.34));
+	PRN("%d\n", SUB(13,5));
+	PRN("%lf\n", SUB(4.2,3.4));
+	*/
+	
+	return 0;
+}
+
+/*void PrintFun1(int *m, int *n) //이 코드는 void PrintFun1, 2와 이어짐
+{
+	printf("fun1 before : m = %d n = %d\n", *m, *n); //3번째 
+	*m = *m + 50;
+	*n = *n * 10;
+	PrintFun2(m, n); //4번째 (함수호출) 
+	printf("fun1 after : m = %d n = %d\n", *m, *n); //7번째 (PrintFun1 함수 끝, main함수로 올라감) 
+}
+
+void PrintFun2(int *m, int *n) //이 코드는 void PrintFun1, 2와 이어짐
+{
+	printf("fun2 before : m = %d n = %d\n", *m, *n); //5번째 
+	*m = *m + 50;
+	*n = *n * 10;
+	printf("fun2 after : m = %d n = %d\n", *m, *n); //6번째 (PrintFun2함수 끝, PrintFun1함수로 올라감) 
+}
+*/
+
+/*void Ccube() //이 코드는 void Ccube, void Coding과 이어짐
+{
+	int cnt = 0;
+	cnt++;
+	printf("%d 씨큐브\n", cnt);
+}
+
+void Coding()
+{
+	static int cnt = 0; //static은 정적변수로, 현재 변수에 지정된 값을 유지한다. 
+	cnt++;
+	printf("%d 코딩\n", cnt);
+}
+*/
